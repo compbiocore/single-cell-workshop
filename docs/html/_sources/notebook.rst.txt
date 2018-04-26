@@ -1,0 +1,18 @@
+Single-Cell Workshop Jupyter Notebooks
+=======================================
+
+These 3 notebooks were created by Ashok Ragavendran.
+
+.. raw:: html
+
+
+
+	<p>Jupyter notebook 1</p>
+    <iframe src="_static/scRNA_workshop_PART_1_QC.html" height="750px" width="800px"></iframe>
+
+    <p>Jupyter notebook 2</p>
+    <iframe src="_static/scRNA_workshop_Part_2_clustering.html" height="750px" width="800px"></iframe>
+
+    <p>Jupyter notebook 3</p>
+    <iframe src="_static/scRNA_workshop_part3_differential_expression.html" height="750px" width="800px"></iframe>
+

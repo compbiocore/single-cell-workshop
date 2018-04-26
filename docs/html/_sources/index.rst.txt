@@ -1,0 +1,47 @@
+.. Single-Cell Workshop documentation master file, created by
+   sphinx-quickstart on Thu Feb  8 16:04:06 2018.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Brown CBC's Single-Cell Workshop Materials
+===========================================
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   CBC Workshop index <https://compbiocore.github.io/cbc-workshops/>
+
+   notebook
+
+Purpose
+=======
+
+This site hosts the Jupyter notebooks for the CBC Single-Cell Analysis Workshop.  The notebooks will be served on the web as static HTML pages, meaning that while they looks like live notebooks, they cannot be edited - to access these notebooks, please click the link in the sidebar.  To obtain an editable copy of the notebook files, please click the respective 'Download Notebook' link below.  These 3 notebooks were created by Ashok Ragavendran.
+
+.. raw:: html
+
+   <h4>Notebook 1</h4>
+
+	<p><a href="https://raw.githubusercontent.com/compbiocore/single-cell-workshop/master/scRNA_workshop_PART_1_QC.ipynb" download>Download full notebook (.ipynb)</a></p>	
+
+   <p><a href="https://raw.githubusercontent.com/compbiocore/single-cell-workshop/master/scRNA_workshop_PART_1_QC.r" download>Download R code only</a></p>
+	
+   <h4>Notebook 2</h4>
+
+   <p><a href="https://raw.githubusercontent.com/compbiocore/single-cell-workshop/master/scRNA_workshop_Part_2_clustering.ipynb" download>Download full notebook (.ipynb)</a></p>
+
+   <p><a href="https://raw.githubusercontent.com/compbiocore/single-cell-workshop/master/scRNA_workshop_Part_2_clustering.r" download>Download R code only</a></p>
+
+   <h4>Notebook 3</h4>
+
+   <p><a href="https://raw.githubusercontent.com/compbiocore/single-cell-workshop/master/scRNA_workshop_part3_differential_expression.ipynb" download>Download full notebook (.ipynb)</a></p> 
+
+   <p><a href="https://raw.githubusercontent.com/compbiocore/single-cell-workshop/master/scRNA_workshop_part3_differential_expression.r" download>Download R code only</a></p>
+
+
+
+Contact
+=======
+
+For assistance, contact cbc-help@brown.edu - this is our general help line, so please specify that your issue is with this site's contents
