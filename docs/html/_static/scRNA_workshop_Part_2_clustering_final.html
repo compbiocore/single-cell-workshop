@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
-<title>scRNA_workshop_Part_2_clustering </title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>scRNA_workshop_Part_2_clustering</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <style type="text/css">
@@ -12844,18 +12844,20 @@ AAwQJAAG/wfjJI07GqusCwAAAABJRU5ErkJggg=="
 <div class="text_cell_render border-box-sizing rendered_html">
 <div class="alert alert-info"> 
 
-___INFO___ 
-The function `computeSumFactors` can Also be used to Normalize based on spike-in counts if those are present
+<b>INFO</b>
+The function <code>computeSumFactors</code> can Also be used to Normalize based on spike-in counts if those are present
 
-For highly heterogeneous data sets, it is advisable to perform a rough clustering of the cells, which can  then be passed on the the `computeSumFactors` function. This may occur in larger datasets and then the __size factors__ are calculated independently for each pool 
+For highly heterogeneous data sets, it is advisable to perform a rough clustering of the cells, which can  then be passed on the the <code>computeSumFactors</code> function. This may occur in larger datasets and then the <b>size factors</b> are calculated independently for each pool 
 <br><br>
 
-```
-clusters <- quickCluster(sce.filt)
 
-larger.sce <- computeSumFactors(sce.filt, cluster=clusters)
+<code>clusters <- quickCluster(sce.filt)</code>
 
-```
+    <br>
+
+<code>larger.sce <- computeSumFactors(sce.filt, cluster=clusters)</code>
+
+
 
  <br><br>The above code is not run as it takes some time shown below
 
@@ -50270,14 +50272,14 @@ G7LgeAAAAABJRU5ErkJggg=="
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <div class="alert alert-info"> 
-__Seurat Normalizing the data__
+<b>Seurat Normalizing the data</b>
 
-By default, __`Seurat`__ employs a global-scaling normalization method “LogNormalize” that normalizes the gene expression measurements for each cell by the total expression, multiplies this by a scale factor (10,000 by default), and log-transforms the result. <br><br>
+By default, <b><code>Seurat</code></b> employs a global-scaling normalization method “LogNormalize” that normalizes the gene expression measurements for each cell by the total expression, multiplies this by a scale factor (10,000 by default), and log-transforms the result. <br><br>
 
-```
-pbmc <- NormalizeData(object = pbmc, normalization.method = "LogNormalize", scale.factor = 10000)
 
-```
+<code>pbmc <- NormalizeData(object = pbmc, normalization.method = "LogNormalize", scale.factor = 10000)</code>
+
+
 </div>
 </div>
 </div>
@@ -53501,9 +53503,9 @@ HQBAIIQdAEAghB0AQCCEHQBAIIQdAEAghB0AQCD+P+D7qDsAEMu6AAAAAElFTkSuQmCC"
 
 NOTE: ProjectPCA scores each gene in the dataset (including genes not included in the PCA) based on their correlation with the calculated components. Though we don't use this further here, it can be used to identify markers that are strongly correlated with cellular heterogeneity, but may not have passed through variable gene selection.  The results of the projected PCA can be explored by setting use.full=T in the functions above. <br>
 
-```
-pbmc <- ProjectPCA(object = pbmc, do.print = FALSE)
-```
+<br>
+<code>pbmc <- ProjectPCA(object = pbmc, do.print = FALSE)</code>
+
 </div>
 </div>
 </div>
@@ -59367,9 +59369,9 @@ AwCYEDsAgAmxAwCYEDsAgAmxAwCYEDsAgAmxAwCYCBzBhm1Uo/VCAAAAAElFTkSuQmCC"
 <div class="alert alert-block alert-warning">
 NOTE: This process can take a long time for big datasets, comment out forexpediency. More approximate techniques such as those implemented in PCElbowPlot() can be used to reduce computation time <br><br>
 
-```
-pbmc <- JackStraw(object = pbmc, num.replicate = 100, display.progress = FALSE)
-```
+<br>
+<code>pbmc <- JackStraw(object = pbmc, num.replicate = 100, display.progress = FALSE)</code>
+
 </div>
 </div>
 </div>
