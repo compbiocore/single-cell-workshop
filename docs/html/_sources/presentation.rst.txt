@@ -5,6 +5,5 @@ These slides were created by Jean Wu.
 
 .. raw:: html
 
-
 	<p>Single-Cell Analysis Presentation</p>
     <iframe src="_static/single_cell_presentation_jean_wu.pdf" height="750px" width="800px"></iframe>
