@@ -16,6 +16,24 @@ Brown CBC's Single-Cell Workshop Materials
 
    presentation
 
+
+
+Workshop Topics
+===============
+
+* Introduction to 10x Genomics Single-Cell Tools
+
+* Applications utilizing Single-Cell Technology from 10x Genomics
+
+* 10x Genomics Data Analysis Software Suite Review
+
+* Overview of Data Analysis for Single-Cell RNA-seq
+
+* A Generic Introduction to Single-Cell RNA-seq Analyses and Interpretations
+
+
+
+
 Purpose
 =======
 
