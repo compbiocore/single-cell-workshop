@@ -23,7 +23,7 @@ Workshop Topics
 
 * Introduction to 10x Genomics Single-Cell Tools
 
-* Applications utilizing Single-Cell Technology from 10x Genomics
+* Applications Utilizing Single-Cell Technology from 10x Genomics
 
 * 10x Genomics Data Analysis Software Suite Review
 
