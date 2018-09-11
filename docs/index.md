@@ -1,0 +1,42 @@
+# Brown CBC's Single-Cell Workshop Materials
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   CBC Workshop index <https://compbiocore.github.io/cbc-workshops/>
+
+   notebook
+
+   presentation
+
+
+
+### Workshop Topics
+
+This workshop, '10X Chromium Single-Cell RNA-seq Workshop', is designed to introduce attendees to the tools associated with 10x-based single-cell analysis in R; it is an intermediate-level lecture that presupposes some knowledge of R like that found in our 'Fundamentals of R' workshop.  The topics presented herein include the following:
+
+
+* Introduction to 10x Genomics Single-Cell Tools
+
+* Applications Utilizing Single-Cell Technology from 10x Genomics
+
+* 10x Genomics Data Analysis Software Suite Review
+
+* Overview of Data Analysis for Single-Cell RNA-seq
+
+* A Generic Introduction to Single-Cell RNA-seq Analyses and Interpretations
+
+
+### **[Notebook](http://nbviewer.jupyter.org/github/compbiocore/single-cell-workshop/tree/master/docs/src/notebooks)**
+
+To access a read-only version of the workshop notebooks (complete with full output), please click the above link; you will be redirected to Jupyter's NBViewer utility.  Simply click the name of the notebook and it will be rendered as HTML.
+
+### Authors
+
+Ashok Ragavendran
+
+### Contact
+
+
+For assistance, contact cbc-help@brown.edu - this is our general help line, so please specify that your issue is with this site's contents

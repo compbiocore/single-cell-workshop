@@ -1,0 +1,28 @@
+site_name:        Computational Biology Core - Brown University
+site_author:      Andrew Leith
+repo_url:         https://github.com/compbiocore/single-cell-workshop
+site_description: Single Cell Workshop
+site_url: https://compbiocore.github.io/ #this is the main site!
+
+theme:
+  name: material
+  palette:
+    primary: 'blue grey'
+    accent: 'indigo'
+  logo: images/cbc-logo.svg
+
+extra_css:
+  - styles/dark_mode.css
+
+markdown_extensions:
+  - extra
+  - tables
+  - fenced_code
+  - admonition
+  - codehilite
+  - footnotes
+
+nav:
+  - Home: 'index.md'
+  - Notebooks: 'notebook.md'
+  - Presentation: 'presentation.md'
