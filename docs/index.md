@@ -1,14 +1,8 @@
 # Brown CBC's Single-Cell Workshop Materials
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-   CBC Workshop index <https://compbiocore.github.io/cbc-workshops/>
-
-   notebook
-
-   presentation
+[![Docs](https://img.shields.io/badge/docs-stable-blue.svg?style=flat-square)](https://compbiocore.github.io/single-cell-workshop)
+[![nbviewer](https://img.shields.io/badge/jupyter_notebooks-nbviewer-purple.svg?style=flat-square)](http://nbviewer.jupyter.org/github/compbiocore/single-cell-workshop/tree/master/docs/src/notebooks)
+[![License](https://img.shields.io/aur/license/yaourt.svg)](https://raw.githubusercontent.com/compbiocore/single-cell-workshop/master/LICENSE)
 
 
 
