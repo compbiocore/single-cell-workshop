@@ -2,5 +2,5 @@ repo:             single-cell-workshop
 site_name:        Single Cell Workshop
 site_author:      Andrew Leith
 site_description: Single Cell Workshop
-site_url:         https://compbiocore.github.io/
+docs_url:         https://compbiocore.github.io/single-cell-workshop
 type:             workshop    # required. choose one of [software, tutorial, workshop, documentation] 
