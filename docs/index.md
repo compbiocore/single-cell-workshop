@@ -28,9 +28,14 @@ To access a read-only version of the workshop notebooks (complete with full outp
 
 ### Authors
 
-Ashok Ragavendran (Workshop), Jean Wu (Post-Workshop Presentation)
+Ashok Ragavendran (Workshop, Presentation 1), Jean Wu (Presentation 2)
 
 ### Contact
 
-
 For assistance, contact cbc-help@brown.edu - this is our general help line, so please specify that your issue is with this site's contents
+
+### Original Time and Location
+
+> Date: 4/27/2018
+
+> Location: Campus Center
