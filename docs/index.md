@@ -5,11 +5,11 @@
 [![License](https://img.shields.io/aur/license/yaourt.svg)](https://raw.githubusercontent.com/compbiocore/single-cell-workshop/master/LICENSE)
 
 
+## Goals
 
-### Workshop Topics
+This workshop, '10X Chromium Single-Cell RNA-seq Workshop', is designed to introduce attendees to single-cell data analysis with the R programming language; it is an intermediate-level lecture that presupposes some knowledge of R like that found in our 'Fundamentals of R' workshop.  It will introduce attendees to the tools associated with 10x-based single-cell analysis, including those provided by 10x Genomics and those implemented in R/Bioconductor.  The general principles of single-cell RNA-seq will also be covered.
 
-This workshop, '10X Chromium Single-Cell RNA-seq Workshop', is designed to introduce attendees to the tools associated with 10x-based single-cell analysis in R; it is an intermediate-level lecture that presupposes some knowledge of R like that found in our 'Fundamentals of R' workshop.  The topics presented herein include the following:
-
+## Workshop Topic Overview
 
 * Introduction to 10x Genomics Single-Cell Tools
 
@@ -28,7 +28,7 @@ To access a read-only version of the workshop notebooks (complete with full outp
 
 ### Authors
 
-Ashok Ragavendran
+Ashok Ragavendran (Workshop), Jean Wu (Post-Workshop Presentation)
 
 ### Contact
 
